@@ -846,7 +846,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-zinc-800 bg-black">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-zinc-400">© 2025 Mansoor Ahmed • Karachi, Pakistan</p>
+          <p className="text-zinc-400">© 2026 Mansoor Ahmed • Karachi, Pakistan</p>
         </div>
       </footer>
     </div>
