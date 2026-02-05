@@ -1,30 +1,53 @@
-# My Portfolio
+# 👋 Mansoor Ahmed — Portfolio
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+This repository contains the source for my personal portfolio website.  
+It represents my work, interests, and growth as a **Computer Science student and aspiring software engineer**.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mansoor-ahmeds-projects-2f38351b/my-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/nEisXPG4L3V)
+The site is designed to be minimal, fast, and focused on clarity.
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🌐 Live
 
-## Deployment
+- **Portfolio:** https://www.mansoorahmedsurti.me  
 
-Your project is live at:
+---
 
-**[https://vercel.com/mansoor-ahmeds-projects-2f38351b/my-portfolio](https://vercel.com/mansoor-ahmeds-projects-2f38351b/my-portfolio)**
+## 🛠 Tech Stack
 
-## Build your app
+- **Frontend:** React / Next.js
+- **Styling:** Modern component-based UI
+- **Deployment:** Vercel
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/nEisXPG4L3V](https://v0.app/chat/nEisXPG4L3V)**
+## 🚀 Workflow
 
-## How It Works
+This project follows a simple and efficient workflow:
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+1. UI and layout are iterated rapidly
+2. Components and structure are refined manually
+3. The repository stays in sync with the live deployment
+4. Vercel serves the latest version automatically
+
+---
+
+## 🧠 Purpose
+
+This portfolio is a living project.  
+It evolves as I:
+- Build real-world projects
+- Learn backend and system fundamentals
+- Explore AI and modern web technologies
+- Improve design sense and code quality
+
+---
+
+## 📬 Contact
+
+- 🌐 Website: https://www.mansoorahmedsurti.me  
+- 💻 GitHub: https://github.com/mansoorahmedsurti
+
+---
+
+> Minimal. Intentional. Always improving.
