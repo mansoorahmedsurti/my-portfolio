@@ -193,7 +193,7 @@ export default function Portfolio() {
               BSCS Student at FAST-NUCES, Class of 2029
             </p>
             <p className="text-lg md:text-xl text-blue-400 mb-6 text-balance font-medium">
-              Building AI Systems & Full-Stack Applications
+              Building AI Chatbots & Full-Stack Applications
             </p>
             <p className="text-lg text-zinc-400 max-w-2xl mx-auto text-pretty">
               Computer Science student passionate about Agentic and Robotic AI systems and their transformative
@@ -226,7 +226,7 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-zinc-300 leading-relaxed mb-6 text-pretty">
-                I'm a Computer Science student at FAST National University (NUCES), Class of 2029, with a deep passion
+                I'm a Computer Science student at FAST-National University of Computer and Emerging Sciences, Class of 2029, with a deep passion
                 for Agentic and Robotic AI systems. I'm particularly interested in revolutionizing our daily lives
                 through intelligent autonomous systems and solving complex real-world problems with cutting-edge AI
                 technologies. Currently building a strong foundation in computer science fundamentals while actively
@@ -372,6 +372,118 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold text-center mb-12 text-balance text-white">Projects</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <Card className="bg-zinc-800 border-zinc-700 text-white">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-lg text-white">
+                  <Code className="h-5 w-5 text-blue-500" />
+                  Robotics RAG Chatbot Platform
+                </CardTitle>
+                <CardDescription className="text-zinc-300">
+                  Retrieval Augmented Generation chatbot for interactive robotics knowledge base
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-zinc-400 mb-3">AI-powered knowledge base with semantic search for robotics concepts</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    Docusaurus
+                  </Badge>
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    React
+                  </Badge>
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    FastAPI
+                  </Badge>
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    Qdrant
+                  </Badge>
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    OpenAI Agents
+                  </Badge>
+                </div>
+                <div className="flex gap-2 mt-4">
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="border-blue-600 text-blue-300 hover:bg-blue-800 bg-transparent"
+                    asChild
+                  >
+                    <a
+                      href="https://github.com/mansoorahmedsurti/Physical-AI-and-Robotics-Book"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="mr-1 h-3 w-3" />
+                      Code
+                    </a>
+                  </Button>
+                  <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
+                    <a
+                      href="https://robotics-book-by-mansoor.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="mr-1 h-3 w-3" />
+                      Live Demo
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-zinc-800 border-zinc-700 text-white">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-lg text-white">
+                  <Code className="h-5 w-5 text-blue-500" />
+                  Comforty
+                </CardTitle>
+                <CardDescription className="text-zinc-300">
+                  Modern furniture e-commerce website with sleek design
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-zinc-400 mb-3">Full-stack e-commerce platform with product catalog and responsive UI</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    Next.js
+                  </Badge>
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    React.js
+                  </Badge>
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    TypeScript
+                  </Badge>
+                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
+                    Tailwind CSS
+                  </Badge>
+                </div>
+                <div className="flex gap-2 mt-4">
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="border-blue-600 text-blue-300 hover:bg-blue-800 bg-transparent"
+                    asChild
+                  >
+                    <a
+                      href="https://github.com/mansoorahmedsurti/Comforty---A-furniture-website"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="mr-1 h-3 w-3" />
+                      Code
+                    </a>
+                  </Button>
+                  <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
+                    <a href="https://comforty-by-mansoor.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="mr-1 h-3 w-3" />
+                      Live Demo
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
             <Card className="bg-zinc-800 border-zinc-700 text-white">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-lg text-white">
@@ -472,57 +584,7 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            <Card className="bg-zinc-800 border-zinc-700 text-white">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-lg text-white">
-                  <Code className="h-5 w-5 text-blue-500" />
-                  Comforty
-                </CardTitle>
-                <CardDescription className="text-zinc-300">
-                  Modern furniture e-commerce website with sleek design
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-zinc-400 mb-3">Full-stack e-commerce platform with product catalog and responsive UI</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    Next.js
-                  </Badge>
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    React.js
-                  </Badge>
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    TypeScript
-                  </Badge>
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    Tailwind CSS
-                  </Badge>
-                </div>
-                <div className="flex gap-2 mt-4">
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    className="border-blue-600 text-blue-300 hover:bg-blue-800 bg-transparent"
-                    asChild
-                  >
-                    <a
-                      href="https://github.com/mansoorahmedsurti/Comforty---A-furniture-website"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Github className="mr-1 h-3 w-3" />
-                      Code
-                    </a>
-                  </Button>
-                  <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
-                    <a href="https://comforty-by-mansoor.vercel.app/" target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-1 h-3 w-3" />
-                      Live Demo
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
+            
 
             <Card className="bg-zinc-800 border-zinc-700 text-white">
               <CardHeader>
@@ -577,64 +639,7 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            <Card className="bg-zinc-800 border-zinc-700 text-white">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-lg text-white">
-                  <Code className="h-5 w-5 text-blue-500" />
-                  Robotics RAG Chatbot Platform
-                </CardTitle>
-                <CardDescription className="text-zinc-300">
-                  Retrieval Augmented Generation chatbot for interactive robotics knowledge base
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-zinc-400 mb-3">AI-powered knowledge base with semantic search for robotics concepts</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    Docusaurus
-                  </Badge>
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    React
-                  </Badge>
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    FastAPI
-                  </Badge>
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    Qdrant
-                  </Badge>
-                  <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
-                    OpenAI Agents
-                  </Badge>
-                </div>
-                <div className="flex gap-2 mt-4">
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    className="border-blue-600 text-blue-300 hover:bg-blue-800 bg-transparent"
-                    asChild
-                  >
-                    <a
-                      href="https://github.com/mansoorahmedsurti/Physical-AI-and-Robotics-Book"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Github className="mr-1 h-3 w-3" />
-                      Code
-                    </a>
-                  </Button>
-                  <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
-                    <a
-                      href="https://robotics-book-by-mansoor.vercel.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="mr-1 h-3 w-3" />
-                      Live Demo
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
+            
           </div>
 
           <div className="text-center mt-8">
@@ -669,14 +674,14 @@ export default function Portfolio() {
                   <CardDescription className="text-zinc-300">IBEX Pakistan</CardDescription>
                 </div>
                 <Badge variant="secondary" className="text-xs bg-zinc-700 text-zinc-300">
-                  Sep 2024 - Mar 2025
+                  Sept'2024 - Mar'2025
                 </Badge>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-zinc-300">
                 Gained valuable communication and problem-solving experience while supporting Walmart customers,
-                maintaining high satisfaction scores and developing professional skills.
+                maintaining high satisfaction scores and developing professional skills. Assisted 6,750+ customers while maintaining a customer satisfaction score of 87.3%.
               </p>
             </CardContent>
           </Card>
@@ -693,17 +698,17 @@ export default function Portfolio() {
               <h3 className="text-xl font-semibold text-center mb-4 text-blue-400">Languages</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                 {[
-                  { skill: "Python", exp: "3+ years" },
-                  { skill: "JavaScript", exp: "2+ years" },
-                  { skill: "TypeScript", exp: "2+ years" },
-                  { skill: "HTML/CSS", exp: "3+ years" },
-                ].map(({ skill, exp }) => (
+                  { skill: "C/C++"},
+                  { skill: "TypeScript"},
+                  { skill: "Python"},
+                  { skill: "HTML/CSS/JS"},
+                ].map(({ skill}) => (
                   <Card key={skill} className="text-center bg-zinc-800 border-zinc-700">
                     <CardContent className="pt-4 flex flex-col items-center justify-center">
                       <Badge variant="secondary" className="text-sm bg-blue-950 text-blue-300 mb-1">
                         {skill}
                       </Badge>
-                      <span className="text-xs text-zinc-400">{exp}</span>
+                      {/* <span className="text-xs text-zinc-400">{exp}</span> */}
                     </CardContent>
                   </Card>
                 ))}
@@ -714,17 +719,17 @@ export default function Portfolio() {
               <h3 className="text-xl font-semibold text-center mb-4 text-blue-400">Frameworks & Libraries</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                 {[
-                  { skill: "React.js", exp: "2+ years" },
-                  { skill: "Next.js", exp: "2+ years" },
-                  { skill: "Node.js", exp: "2+ years" },
-                  { skill: "Streamlit", exp: "2+ years" },
-                ].map(({ skill, exp }) => (
+                  { skill: "React.js"},
+                  { skill: "Next.js"},
+                  { skill: "Node.js"},
+                  { skill: "Streamlit"},
+                ].map(({ skill}) => (
                   <Card key={skill} className="text-center bg-zinc-800 border-zinc-700">
                     <CardContent className="pt-4 flex flex-col items-center justify-center">
                       <Badge variant="secondary" className="text-sm bg-blue-950 text-blue-300 mb-1">
                         {skill}
                       </Badge>
-                      <span className="text-xs text-zinc-400">{exp}</span>
+                      {/* <span className="text-xs text-zinc-400">{exp}</span> */}
                     </CardContent>
                   </Card>
                 ))}
@@ -735,17 +740,17 @@ export default function Portfolio() {
               <h3 className="text-xl font-semibold text-center mb-4 text-blue-400">AI & Tools</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                 {[
-                  { skill: "OpenAI Agents SDK", exp: "1+ years" },
-                  { skill: "AI & ML", exp: "1+ years" },
-                  { skill: "Tailwind CSS", exp: "2+ years" },
-                  { skill: "Problem Solving", exp: "3+ years" },
-                ].map(({ skill, exp }) => (
+                  { skill: "Claude CLI"},
+                  { skill: "Open AI Agents SDK" },
+                  { skill: "n8n", exp: "2+ years" },
+                  { skill: "Git & Github"},
+                ].map(({ skill}) => (
                   <Card key={skill} className="text-center bg-zinc-800 border-zinc-700">
                     <CardContent className="pt-4 flex flex-col items-center justify-center">
                       <Badge variant="secondary" className="text-sm bg-blue-950 text-blue-300 mb-1">
                         {skill}
                       </Badge>
-                      <span className="text-xs text-zinc-400">{exp}</span>
+                      {/* <span className="text-xs text-zinc-400">{exp}</span> */}
                     </CardContent>
                   </Card>
                 ))}
