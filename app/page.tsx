@@ -185,7 +185,7 @@ export default function Portfolio() {
         </div>
       </nav>
 
-      <section className="relative bg-gradient-to-br from-zinc-900 via-black to-zinc-800 py-20 px-4 pt-24 md:pt-24">
+      <section className="relative bg-gradient-to-br from-zinc-900 via-black to-zinc-800 min-h-screen flex items-center py-20 px-4 pt-32 md:pt-32">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 text-balance">Mansoor Ahmed</h1>
@@ -815,25 +815,25 @@ export default function Portfolio() {
                 WhatsApp
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800" asChild>
+            <Button size="lg" variant="outline" className="border-blue-600 text-white hover:bg-blue-800" asChild>
               <a href="https://www.linkedin.com/in/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-4 w-4" />
                 LinkedIn
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800" asChild>
+            <Button size="lg" variant="outline" className="border-blue-600 text-white hover:bg-blue-800" asChild>
               <a href="https://github.com/mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-4 w-4" />
                 GitHub
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800" asChild>
+            <Button size="lg" variant="outline" className="border-blue-600 text-white hover:bg-blue-800" asChild>
               <a href="https://leetcode.com/u/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
                 <SiLeetcode className="mr-2 h-4 w-4" />
                 LeetCode
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800" asChild>
+            <Button size="lg" variant="outline" className="border-blue-600 text-white hover:bg-blue-800" asChild>
               <a href="https://medium.com/@mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
                 <SiMedium className="mr-2 h-4 w-4" />
                 Medium

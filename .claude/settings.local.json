@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m \"Update favicon and modify contact section UI\n\n- Changed favicon from multiple files to single favicon.png\n- Updated hero section button text from ''Get In Touch'' to ''Email''\n- Moved social media icons from footer to ''Let''s Connect'' section\n- Added WhatsApp icon to ''Let''s Connect'' section\n- Cleaned up unused icon files\")",
+      "Bash(git push origin main)",
+      "Bash(git add .)"
+    ]
+  }
+}
