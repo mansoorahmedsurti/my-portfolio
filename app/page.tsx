@@ -318,7 +318,7 @@ export default function Portfolio() {
                   Bachelor of Science in Computer Science (BSCS)
                 </CardTitle>
                 <CardDescription className="text-lg font-medium text-zinc-300">
-                  FAST National University of Computer and Emerging Sciences (NUCES)
+                  FAST-National University of Computer and Emerging Sciences (NUCES)
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -719,8 +719,8 @@ export default function Portfolio() {
               <h3 className="text-xl font-semibold text-center mb-4 text-blue-400">Frameworks & Libraries</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                 {[
-                  { skill: "React.js"},
                   { skill: "Next.js"},
+                  { skill: "React.js"},
                   { skill: "Node.js"},
                   { skill: "Streamlit"},
                 ].map(({ skill}) => (
@@ -869,25 +869,25 @@ export default function Portfolio() {
               </Button>
             </div>
             <div className="flex flex-wrap justify-center gap-2">
-              <Button size="sm" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
+              <Button size="sm" variant="outline" className="border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white" asChild>
                 <a href="https://www.linkedin.com/in/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-1 h-3 w-3" />
                   LinkedIn
                 </a>
               </Button>
-              <Button size="sm" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
+              <Button size="sm" variant="outline" className="border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white" asChild>
                 <a href="https://github.com/mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-1 h-3 w-3" />
                   GitHub
                 </a>
               </Button>
-              <Button size="sm" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
+              <Button size="sm" variant="outline" className="border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white" asChild>
                 <a href="https://leetcode.com/u/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
                   <SiLeetcode className="mr-1 h-3 w-3" />
                   LeetCode
                 </a>
               </Button>
-              <Button size="sm" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
+              <Button size="sm" variant="outline" className="border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white" asChild>
                 <a href="https://medium.com/@mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
                   <SiMedium className="mr-1 h-3 w-3" />
                   Medium
