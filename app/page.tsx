@@ -815,25 +815,25 @@ export default function Portfolio() {
                 WhatsApp
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-white hover:bg-blue-800" asChild>
+            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
               <a href="https://www.linkedin.com/in/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-4 w-4" />
                 LinkedIn
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-white hover:bg-blue-800" asChild>
+            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
               <a href="https://github.com/mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-4 w-4" />
                 GitHub
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-white hover:bg-blue-800" asChild>
+            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
               <a href="https://leetcode.com/u/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
                 <SiLeetcode className="mr-2 h-4 w-4" />
                 LeetCode
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-white hover:bg-blue-800" asChild>
+            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
               <a href="https://medium.com/@mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
                 <SiMedium className="mr-2 h-4 w-4" />
                 Medium
