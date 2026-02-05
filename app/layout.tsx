@@ -20,7 +20,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Mansoor Ahmed | FAST-NUCES BSCS 2029 | Agentic & Robotic AI Enthusiast",
   description:
-    "Mansoor Ahmed - FAST-NUCES Computer Science student passionate about Agentic & Robotic AI, revolutionizing daily lives through intelligent automation",
+    "Mansoor Ahmed - FAST-NUCES Computer Science student specializing in AI Systems and Full-Stack Development. Building intelligent applications with Python, JavaScript, and modern web technologies.",
   generator: "v0.app",
   icons: {
     icon: [

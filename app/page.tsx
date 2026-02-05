@@ -193,7 +193,7 @@ export default function Portfolio() {
               BSCS Student at FAST-NUCES, Class of 2029
             </p>
             <p className="text-lg md:text-xl text-blue-400 mb-6 text-balance font-medium">
-              Agentic & Robotic AI Enthusiast
+              Building AI Systems & Full-Stack Applications
             </p>
             <p className="text-lg text-zinc-400 max-w-2xl mx-auto text-pretty">
               Computer Science student passionate about Agentic and Robotic AI systems and their transformative
@@ -235,7 +235,8 @@ export default function Portfolio() {
               <p className="text-zinc-300 leading-relaxed text-pretty">
                 Through certifications from IBM and Google, I'm continuously expanding my knowledge in AI and generative
                 technologies. My goal is to contribute to meaningful AI innovations that can make a positive impact on
-                society and drive technological advancement in autonomous systems.
+                society and drive technological advancement in autonomous systems. Seeking opportunities in AI Engineering,
+                Full-Stack Development, or Research roles where I can apply my technical skills and passion for innovation.
               </p>
             </div>
 
@@ -382,6 +383,7 @@ export default function Portfolio() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm text-zinc-400 mb-3">Automates measurement conversions across 15+ unit types with intuitive UI</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
                     Python
@@ -431,6 +433,7 @@ export default function Portfolio() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm text-zinc-400 mb-3">Enhances security awareness by analyzing password complexity in real-time</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
                     Python
@@ -480,6 +483,7 @@ export default function Portfolio() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm text-zinc-400 mb-3">Full-stack e-commerce platform with product catalog and responsive UI</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
                     Next.js
@@ -531,6 +535,7 @@ export default function Portfolio() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm text-zinc-400 mb-3">Visualizes historical data with interactive timelines and chronological organization</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
                     HTML
@@ -583,6 +588,7 @@ export default function Portfolio() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm text-zinc-400 mb-3">AI-powered knowledge base with semantic search for robotics concepts</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Badge variant="outline" className="border-blue-600 text-blue-300 text-xs">
                     Docusaurus
@@ -682,29 +688,69 @@ export default function Portfolio() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-balance text-white">Technical Skills</h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              "OpenAI Agents SDK",
-              "Next.js",
-              "React.js",
-              "TypeScript",
-              "Tailwind CSS",
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "Python",
-              "Streamlit",
-              "Problem Solving",
-              "AI & Machine Learning",
-            ].map((skill) => (
-              <Card key={skill} className="text-center bg-zinc-800 border-zinc-700">
-                <CardContent className="pt-6 flex items-center justify-center">
-                  <Badge variant="secondary" className="text-sm bg-blue-950 text-blue-300">
-                    {skill}
-                  </Badge>
-                </CardContent>
-              </Card>
-            ))}
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-xl font-semibold text-center mb-4 text-blue-400">Languages</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {[
+                  { skill: "Python", exp: "3+ years" },
+                  { skill: "JavaScript", exp: "2+ years" },
+                  { skill: "TypeScript", exp: "2+ years" },
+                  { skill: "HTML/CSS", exp: "3+ years" },
+                ].map(({ skill, exp }) => (
+                  <Card key={skill} className="text-center bg-zinc-800 border-zinc-700">
+                    <CardContent className="pt-4 flex flex-col items-center justify-center">
+                      <Badge variant="secondary" className="text-sm bg-blue-950 text-blue-300 mb-1">
+                        {skill}
+                      </Badge>
+                      <span className="text-xs text-zinc-400">{exp}</span>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-center mb-4 text-blue-400">Frameworks & Libraries</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {[
+                  { skill: "React.js", exp: "2+ years" },
+                  { skill: "Next.js", exp: "2+ years" },
+                  { skill: "Node.js", exp: "2+ years" },
+                  { skill: "Streamlit", exp: "2+ years" },
+                ].map(({ skill, exp }) => (
+                  <Card key={skill} className="text-center bg-zinc-800 border-zinc-700">
+                    <CardContent className="pt-4 flex flex-col items-center justify-center">
+                      <Badge variant="secondary" className="text-sm bg-blue-950 text-blue-300 mb-1">
+                        {skill}
+                      </Badge>
+                      <span className="text-xs text-zinc-400">{exp}</span>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-center mb-4 text-blue-400">AI & Tools</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {[
+                  { skill: "OpenAI Agents SDK", exp: "1+ years" },
+                  { skill: "AI & ML", exp: "1+ years" },
+                  { skill: "Tailwind CSS", exp: "2+ years" },
+                  { skill: "Problem Solving", exp: "3+ years" },
+                ].map(({ skill, exp }) => (
+                  <Card key={skill} className="text-center bg-zinc-800 border-zinc-700">
+                    <CardContent className="pt-4 flex flex-col items-center justify-center">
+                      <Badge variant="secondary" className="text-sm bg-blue-950 text-blue-300 mb-1">
+                        {skill}
+                      </Badge>
+                      <span className="text-xs text-zinc-400">{exp}</span>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -802,43 +848,47 @@ export default function Portfolio() {
             opportunities? I'd love to connect!
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
-              <a href="mailto:mansoor.ahmed11521@gmail.com">
-                <Mail className="mr-2 h-4 w-4" />
-                Email
-              </a>
-            </Button>
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white" asChild>
-              <a href="https://wa.me/923191459855" target="_blank" rel="noopener noreferrer">
-                <SiWhatsapp className="mr-2 h-4 w-4" />
-                WhatsApp
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
-              <a href="https://www.linkedin.com/in/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="mr-2 h-4 w-4" />
-                LinkedIn
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
-              <a href="https://github.com/mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
-                <Github className="mr-2 h-4 w-4" />
-                GitHub
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
-              <a href="https://leetcode.com/u/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
-                <SiLeetcode className="mr-2 h-4 w-4" />
-                LeetCode
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
-              <a href="https://medium.com/@mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
-                <SiMedium className="mr-2 h-4 w-4" />
-                Medium
-              </a>
-            </Button>
+          <div className="flex flex-col items-center gap-4 mb-8">
+            <div className="flex flex-wrap justify-center gap-4">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
+                <a href="mailto:mansoor.ahmed11521@gmail.com">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Email
+                </a>
+              </Button>
+              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white" asChild>
+                <a href="https://wa.me/923191459855" target="_blank" rel="noopener noreferrer">
+                  <SiWhatsapp className="mr-2 h-4 w-4" />
+                  WhatsApp
+                </a>
+              </Button>
+            </div>
+            <div className="flex flex-wrap justify-center gap-2">
+              <Button size="sm" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
+                <a href="https://www.linkedin.com/in/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="mr-1 h-3 w-3" />
+                  LinkedIn
+                </a>
+              </Button>
+              <Button size="sm" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
+                <a href="https://github.com/mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-1 h-3 w-3" />
+                  GitHub
+                </a>
+              </Button>
+              <Button size="sm" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
+                <a href="https://leetcode.com/u/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
+                  <SiLeetcode className="mr-1 h-3 w-3" />
+                  LeetCode
+                </a>
+              </Button>
+              <Button size="sm" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800 hover:text-white" asChild>
+                <a href="https://medium.com/@mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
+                  <SiMedium className="mr-1 h-3 w-3" />
+                  Medium
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
