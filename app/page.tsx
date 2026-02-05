@@ -205,7 +205,7 @@ export default function Portfolio() {
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
               <a href="mailto:mansoor.ahmed11521@gmail.com">
                 <Mail className="mr-2 h-4 w-4" />
-                Get In Touch
+                Email
               </a>
             </Button>
             <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white" asChild>
@@ -802,12 +802,44 @@ export default function Portfolio() {
             opportunities? I'd love to connect!
           </p>
 
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white w-full" asChild>
-            <a href="mailto:mansoor.ahmed11521@gmail.com">
-              <Mail className="mr-2 h-4 w-4" />
-              Send Email
-            </a>
-          </Button>
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
+              <a href="mailto:mansoor.ahmed11521@gmail.com">
+                <Mail className="mr-2 h-4 w-4" />
+                Email
+              </a>
+            </Button>
+            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white" asChild>
+              <a href="https://wa.me/923191459855" target="_blank" rel="noopener noreferrer">
+                <SiWhatsapp className="mr-2 h-4 w-4" />
+                WhatsApp
+              </a>
+            </Button>
+            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800" asChild>
+              <a href="https://www.linkedin.com/in/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="mr-2 h-4 w-4" />
+                LinkedIn
+              </a>
+            </Button>
+            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800" asChild>
+              <a href="https://github.com/mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-4 w-4" />
+                GitHub
+              </a>
+            </Button>
+            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800" asChild>
+              <a href="https://leetcode.com/u/mansoorahmedsurti/" target="_blank" rel="noopener noreferrer">
+                <SiLeetcode className="mr-2 h-4 w-4" />
+                LeetCode
+              </a>
+            </Button>
+            <Button size="lg" variant="outline" className="border-blue-600 text-blue-300 hover:bg-blue-800" asChild>
+              <a href="https://medium.com/@mansoorahmedsurti" target="_blank" rel="noopener noreferrer">
+                <SiMedium className="mr-2 h-4 w-4" />
+                Medium
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -815,40 +847,6 @@ export default function Portfolio() {
       <footer className="py-8 px-4 border-t border-zinc-800 bg-black">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-zinc-400">© 2025 Mansoor Ahmed • Karachi, Pakistan</p>
-          <div className="flex gap-6 justify-center mt-4">
-            <a
-              href="https://www.linkedin.com/in/mansoorahmedsurti/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 transition-colors"
-            >
-              <Linkedin size={24} />
-            </a>
-            <a
-              href="https://github.com/mansoorahmedsurti"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 transition-colors"
-            >
-              <Github size={24} />
-            </a>
-            <a
-              href="https://leetcode.com/u/mansoorahmedsurti/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 transition-colors"
-            >
-              <SiLeetcode size={24} />
-            </a>
-            <a
-              href="https://medium.com/@mansoorahmedsurti"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 transition-colors"
-            >
-              <SiMedium size={24} />
-            </a>
-          </div>
         </div>
       </footer>
     </div>
