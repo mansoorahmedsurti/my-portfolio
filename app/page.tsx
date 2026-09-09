@@ -185,8 +185,8 @@ export default function Portfolio() {
         </div>
       </nav>
 
-      <section className="relative bg-gradient-to-br from-zinc-900 via-black to-zinc-800 min-h-screen flex items-center py-20 px-4 pt-32 md:pt-32">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative bg-gradient-to-br from-zinc-900 via-black to-zinc-800 min-h-screen flex flex-col justify-center items-center px-4 text-center">
+        <div className="w-full max-w-4xl mx-auto">
           <div className="mb-8">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 text-balance">Mansoor Ahmed</h1>
             <p className="text-xl md:text-2xl text-zinc-300 mb-4 text-balance">
@@ -201,7 +201,7 @@ export default function Portfolio() {
             </p>
           </div>
 
-          <div className="flex justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
               <a href="mailto:mansoor.ahmed11521@gmail.com">
                 <Mail className="mr-2 h-4 w-4" />
@@ -214,6 +214,33 @@ export default function Portfolio() {
                 WhatsApp
               </a>
             </Button>
+          </div>
+
+          <div className="mt-6 flex flex-wrap justify-center gap-x-5 gap-y-2">
+            <a
+              href="https://github.com/mansoorahmedsurti"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-blue-400 hover:text-blue-300 underline-offset-4 hover:underline"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.researchgate.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-blue-400 hover:text-blue-300 underline-offset-4 hover:underline"
+            >
+              ResearchGate
+            </a>
+            <a
+              href="https://orcid.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-blue-400 hover:text-blue-300 underline-offset-4 hover:underline"
+            >
+              ORCID
+            </a>
           </div>
         </div>
       </section>
